@@ -24,7 +24,6 @@ public class App {
         System.out.println("     `---''---`"); // input your solution here
     }
 
-
     // todo Task 3
     public void sumOfLiterals(){
         char buchstabe= 'Z'; //einzelnes unicodezeichen
@@ -75,7 +74,6 @@ public class App {
         System.out.println();*/
 
         System.out.println(sum);
-
     }
 
     //todo Task 4 - fertig
@@ -112,7 +110,6 @@ public class App {
         System.out.println("After Swap:");
         System.out.println("x: "+x);
         System.out.println("y: "+y);*/
-
     }
 
     //todo Task 6 - fertig
