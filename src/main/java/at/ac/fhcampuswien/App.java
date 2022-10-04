@@ -203,6 +203,10 @@ public class App {
         System.out.print("Number: ");
         int dreistellig= scanner.nextInt();
 
+        if(dreistellig>=1000){
+            return;
+        }
+
         int hunderter=dreistellig/100;
         int einser=dreistellig%10;
         int zehner=dreistellig%100/10;
