@@ -207,13 +207,27 @@ public class App {
             return;
         }
 
-        int hunderter=dreistellig/100;
-        int einser=dreistellig%10;
-        int zehner=dreistellig%100/10;
+       if(dreistellig>99) {
+           int hunderter = dreistellig / 100;
+           int einser = dreistellig % 10;
+           int zehner = dreistellig % 100 / 10;
+           System.out.print(einser);
+           System.out.print(zehner);
+           System.out.println(hunderter);
+       }
 
-        System.out.print(einser);
-        System.out.print(zehner);
-        System.out.println(hunderter);
+        if(dreistellig<100 && dreistellig>9) {
+            int einser = dreistellig % 10;
+            int zehner = dreistellig % 100 / 10;
+            System.out.print(einser);
+            System.out.print(zehner);
+        }
+
+        if(dreistellig<10) {
+            int einser = dreistellig % 10;
+            System.out.print(einser);
+        }
+
         //  System.out.println(hunderter);
         //  System.out.println(zehner);
         //  System.out.println(einser);
